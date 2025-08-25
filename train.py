@@ -31,7 +31,7 @@ def main():
     print("Device in use is ", dev)
 
     # 读取数据
-    read_directory_train = "/data/1.mitbih/mitbih_dataset_train_500_.txt"
+    read_directory_train = "/data/1.mitbih/mitbih_dataset_train_500.txt"
 
     with open(read_directory_train, "rb") as fp:  
         train_list = pickle.load(fp) 
